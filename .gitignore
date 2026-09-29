@@ -1,0 +1,27 @@
+# ============================================================
+# SMS-SHULE — .gitignore
+# ============================================================
+
+# Picha/data zilizopakiwa na watumiaji (uploads ya kweli) — usizitumie GitHub.
+# .htaccess na placeholder index.html zinabaki zikisimamiwa.
+uploads/students/*
+!uploads/students/index.html
+uploads/activities/*
+!uploads/activities/index.html
+
+# Faili za muda / backup
+*.log
+*.tmp
+*.bak
+*~
+.DS_Store
+Thumbs.db
+
+# Mazegezo ya IDE/editors
+.vscode/
+.idea/
+nbproject/
+
+# Usalama: environment/config yenye siri (kama utaanzza kutumia)
+.env
+config/config.local.php

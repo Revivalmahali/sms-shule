@@ -1,0 +1,11 @@
+# ============================================================
+# Usalama wa folda ya uploads:
+# 1. Zuia utekelezaji wa PHP/scripts (picha tu ndizo ziruhusiwa)
+# 2. Zima directory listing
+# ============================================================
+
+<FilesMatch "\.(?i:php|phtml|php3|php4|php5|php7|php8|phps|pl|py|cgi|sh|asp|aspx)$">
+    Require all denied
+</FilesMatch>
+
+Options -Indexes
